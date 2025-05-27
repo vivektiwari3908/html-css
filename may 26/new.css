@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url(https://s.yimg.com/zb/imgv1/d8b75f33-5cf5-325d-9e01-c02096aa7e99/t_500x300);
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;
+    /* shorthand */
+    background: url(https://s.yimg.com/zb/imgv1/d8b75f33-5cf5-325d-9e01-c02096aa7e99/t_500x300) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero h1{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+
+}
+.hero p{
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+
+.container{
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    /* flex start, flex end, space-around, space-between, space-evenly */
+    justify-content: center;
+    /* flex direction - main axis - justify content */
+    /* cross axis - align - items */
+    gap: 20px;
+    align-items: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 30px;
+}
+.cool{
+    height: 200px;
+        display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+  margin-top: 30px;
+}
+.cool img{
+    width: 30%;
+    height: 100px;
+}
