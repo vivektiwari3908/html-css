@@ -31,3 +31,25 @@ header h1 span{
 .home {
     text-align: center;
 }
+#click{
+    display: none;
+}
+#click:checked~.navbar ul{
+    display: block;
+}
+@media  screen and (max-width:650px) {
+   .navbar label{
+    display: block;     
+}
+.navbar header ul{
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: lightblue;
+    width: 100%;
+}
+.navbar header ul li{
+    padding: 10px;
+}
+
+}

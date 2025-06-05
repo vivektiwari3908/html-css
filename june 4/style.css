@@ -1,9 +1,18 @@
-
+body{
+    margin: 0;
+}
 .navbar{
-    background-color: yellow;
+    background-color: rgb(179, 255, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.navbar h2 {
+    color: rgb(255, 119, 0);;
+}
+.navbar h2 span {
+     text-align: center;
+    color: black
 }
 .navbar ul{
       display: flex;
@@ -11,7 +20,7 @@
       list-style: none;
 }
 .navbar label {
-    display: block;
+    display: none;
 }
 #click{
     display: none;
